@@ -1,0 +1,1 @@
+The backend_centra project is a robust Django REST framework application serving as the core API for AssureHub. It handles data management, business logic, and integrations, providing secure and scalable services for audit reporting, compliance, and workflow automation. It leverages PostgreSQL, Celery, and Redis for high performance.

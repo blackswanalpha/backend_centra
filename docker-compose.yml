@@ -1,0 +1,144 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: assurehub_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_NAME:-assurehub_db}
+      POSTGRES_USER: ${DB_USER:-assurehub_user}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-assurehub_secure_password_2024}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./backups:/backups
+    networks:
+      - assurehub_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-assurehub_user} -d ${DB_NAME:-assurehub_db}"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    ports:
+      - "5433:5432"
+
+  redis:
+    image: redis:7-alpine
+    container_name: assurehub_redis
+    restart: unless-stopped
+    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD:-development_redis_password}
+    volumes:
+      - redis_data:/data
+    networks:
+      - assurehub_network
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "${REDIS_PASSWORD:-development_redis_password}", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    ports:
+      - "6379:6379"
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: assurehub_prometheus
+    restart: unless-stopped
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/usr/share/prometheus/console_libraries'
+      - '--web.console.templates=/usr/share/prometheus/consoles'
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+    networks:
+      - assurehub_network
+    ports:
+      - "9090:9090"
+    depends_on:
+      - web
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: assurehub_pgadmin
+    restart: unless-stopped
+    user: root
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_EMAIL:-admin@assurehub.com}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD:-pgadmin_secure_password_2024}
+      PGADMIN_CONFIG_SERVER_MODE: 'False'
+      PGADMIN_CONFIG_MASTER_PASSWORD_REQUIRED: 'False'
+      PGADMIN_SERVER_JSON_FILE: /pgadmin4/servers.json
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+      - ./pgadmin_servers.json:/pgadmin4/servers.json:ro
+      - ./pgadmin_pgpass:/pgadmin4/pgpassfile:ro
+    networks:
+      - assurehub_network
+    ports:
+      - "5050:80"
+    depends_on:
+      - db
+    entrypoint: >
+      /bin/sh -c "
+      if [ -f /pgadmin4/pgpassfile ]; then
+        cp /pgadmin4/pgpassfile /var/lib/pgadmin/pgpass &&
+        chmod 600 /var/lib/pgadmin/pgpass &&
+        export PGPASSFILE=/var/lib/pgadmin/pgpass
+      fi &&
+      /entrypoint.sh
+      "
+
+  web:
+    build: .
+    container_name: assurehub_backend
+    restart: unless-stopped
+    environment:
+      - DJANGO_SETTINGS_MODULE=backend.settings
+      - DJANGO_SECRET_KEY=${DJANGO_SECRET_KEY:-django-insecure-CHANGE-THIS-IN-PRODUCTION-use-strong-random-key}
+      - DJANGO_ENVIRONMENT=${DJANGO_ENVIRONMENT:-development}
+      - DB_NAME=${DB_NAME:-assurehub_db}
+      - DB_USER=${DB_USER:-assurehub_user}
+      - DB_PASSWORD=${DB_PASSWORD:-assurehub_secure_password_2024}
+      - DB_HOST=db
+      - DB_PORT=5432
+      - REDIS_URL=redis://:${REDIS_PASSWORD:-development_redis_password}@redis:6379/1
+      - ALLOWED_HOSTS=${ALLOWED_HOSTS:-localhost,127.0.0.1,0.0.0.0}
+      - CORS_ALLOWED_ORIGINS=${CORS_ALLOWED_ORIGINS:-http://localhost:3000,http://127.0.0.1:3000}
+      - CSRF_TRUSTED_ORIGINS=${CSRF_TRUSTED_ORIGINS:-http://localhost:3000,http://127.0.0.1:3000}
+    volumes:
+      - static_volume:/app/static
+      - media_volume:/app/media
+      - logs_volume:/app/logs
+      - .:/app
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    networks:
+      - assurehub_network
+    command: python manage.py runserver 0.0.0.0:8000
+
+volumes:
+  postgres_data:
+    driver: local
+  redis_data:
+    driver: local
+  prometheus_data:
+    driver: local
+  static_volume:
+    driver: local
+  media_volume:
+    driver: local
+  logs_volume:
+    driver: local
+  pgadmin_data:
+    driver: local
+
+networks:
+  assurehub_network:
+    driver: bridge
+

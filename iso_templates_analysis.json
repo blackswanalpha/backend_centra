@@ -1,0 +1,982 @@
+{
+  "BUSINESS CONTINUITY_Stage_II_Certification_Audit_Report.docx": {
+    "file_name": "BUSINESS CONTINUITY_Stage_II_Certification_Audit_Report.docx",
+    "paragraphs_count": 157,
+    "tables_count": 0,
+    "sections": [
+      {
+        "index": 35,
+        "title": "Are interdependencies between functions, suppliers, and partners documented?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Is the organization's risk appetite and tolerance defined for continuity planning?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A"
+        ]
+      },
+      {
+        "index": 111,
+        "title": "Are suppliers and partners involved in continuity planning and testing?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Are risk treatment and mitigation measures monitored for effectiveness?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A"
+        ]
+      }
+    ],
+    "tables": [],
+    "fields": [
+      "Address",
+      "Auditor",
+      "Auditor Name & Signature",
+      "Client Name",
+      "Client Representative & Signature",
+      "Conclusion",
+      "Conducted on (Date and Time)",
+      "Contact Person",
+      "Date",
+      "Email Address",
+      "ISO 22301",
+      "Lead Auditor",
+      "Location 1",
+      "Location 2",
+      "Location 3",
+      "Phone No.",
+      "Recommendations",
+      "Site"
+    ]
+  },
+  "BUSINESS CONTINUITY_Stage_I_Audit_Checklist.docx": {
+    "file_name": "BUSINESS CONTINUITY_Stage_I_Audit_Checklist.docx",
+    "paragraphs_count": 86,
+    "tables_count": 0,
+    "sections": [
+      {
+        "index": 1,
+        "title": "1. Information",
+        "content_preview": [
+          "Client Name: __________________________",
+          "Address: __________________________",
+          "Contact Person: __________________________"
+        ]
+      },
+      {
+        "index": 11,
+        "title": "2. Audit Scope",
+        "content_preview": [
+          "Describe the range of processes, locations, and functions included in the BCMS audit, including just"
+        ]
+      },
+      {
+        "index": 13,
+        "title": "3. Audit Objectives",
+        "content_preview": [
+          "To assess the organization's understanding of ISO 22301:2019 requirements.",
+          "To verify the definition and appropriateness of the BCMS scope and boundaries.",
+          "To evaluate the adequacy and control of documented information such as policy, BIA, risk assessment,"
+        ]
+      },
+      {
+        "index": 21,
+        "title": "4. Audit Summary",
+        "content_preview": [
+          "A. Documented Information",
+          "Is a Business Continuity Policy documented, approved, and communicated within the organization?",
+          "[ ] Compliant  [ ] Needs Improvement  [ ] Non-Compliant  [ ] N/A"
+        ]
+      },
+      {
+        "index": 25,
+        "title": "Are internal and external issues and interested parties identified and documented?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Needs Improvement  [ ] Non-Compliant  [ ] N/A",
+          "Is a Business Impact Analysis (BIA) conducted and documented?",
+          "[ ] Compliant  [ ] Needs Improvement  [ ] Non-Compliant  [ ] N/A"
+        ]
+      },
+      {
+        "index": 76,
+        "title": "5. Recommendation",
+        "content_preview": [
+          "\u2611 Stage II Ready",
+          "\u2610 Stage II Conditional (improvements required)",
+          "\u2610 Stage II Not Ready"
+        ]
+      }
+    ],
+    "tables": [],
+    "fields": [
+      "Address",
+      "Audit Team Members",
+      "Client Name",
+      "Client Representative",
+      "Comments / Justification",
+      "Contact Person",
+      "Date",
+      "Email Address",
+      "ISO 22301",
+      "Lead Auditor",
+      "Phone No.",
+      "Site(s)"
+    ]
+  },
+  "INFORMATION SECIRITY_Stage_II_Certification_Audit_Report.docx": {
+    "file_name": "INFORMATION SECIRITY_Stage_II_Certification_Audit_Report.docx",
+    "paragraphs_count": 161,
+    "tables_count": 0,
+    "sections": [
+      {
+        "index": 29,
+        "title": "Have the needs and expectations of interested parties (clients, regulators, staff) been determined?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Is the scope of the ISMS defined and aligned with organizational goals and boundaries?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A"
+        ]
+      },
+      {
+        "index": 58,
+        "title": "Is there evidence of top management participation in management reviews and risk discussions?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Are accountability and authority for incident response clearly assigned?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A"
+        ]
+      }
+    ],
+    "tables": [],
+    "fields": [
+      "Address",
+      "Auditor",
+      "Auditor Name & Signature",
+      "Client Name",
+      "Client Representative & Signature",
+      "Conclusion",
+      "Conducted on (Date and Time)",
+      "Contact Person",
+      "Date",
+      "Email Address",
+      "ISO 27001",
+      "Lead Auditor",
+      "Location 1",
+      "Location 2",
+      "Location 3",
+      "Phone No.",
+      "Recommendations",
+      "Site"
+    ]
+  },
+  "INFORMATION SECURITY_Stage_I_Audit_Checklist.docx": {
+    "file_name": "INFORMATION SECURITY_Stage_I_Audit_Checklist.docx",
+    "paragraphs_count": 88,
+    "tables_count": 0,
+    "sections": [
+      {
+        "index": 1,
+        "title": "1. Information",
+        "content_preview": [
+          "Client Name: __________________________",
+          "Address: __________________________",
+          "Contact Person: __________________________"
+        ]
+      },
+      {
+        "index": 11,
+        "title": "2. Audit Scope",
+        "content_preview": [
+          "Describe the range of activities, systems, and facilities covered by the ISMS audit, including justi"
+        ]
+      },
+      {
+        "index": 13,
+        "title": "3. Audit Objectives",
+        "content_preview": [
+          "To assess the organization's understanding of ISO/IEC 27001:2022 requirements.",
+          "To verify the definition and appropriateness of the ISMS scope and boundaries.",
+          "To evaluate the adequacy and control of documented information including policies, risk assessment, "
+        ]
+      },
+      {
+        "index": 21,
+        "title": "4. Audit Summary",
+        "content_preview": [
+          "A. Documented Information",
+          "Is the Information Security Policy documented, communicated, and aligned with the organization\u2019s con",
+          "[ ] Compliant  [ ] Needs Improvement  [ ] Non-Compliant  [ ] N/A"
+        ]
+      },
+      {
+        "index": 25,
+        "title": "Are internal and external issues, interested parties, and ISMS scope defined and documented?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Needs Improvement  [ ] Non-Compliant  [ ] N/A",
+          "Is there a current Statement of Applicability (SoA) listing applicable Annex A controls?",
+          "[ ] Compliant  [ ] Needs Improvement  [ ] Non-Compliant  [ ] N/A"
+        ]
+      },
+      {
+        "index": 46,
+        "title": "Are third-party vendors, contractors, and partners bound by confidentiality agreements or NDAs?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Needs Improvement  [ ] Non-Compliant  [ ] N/A",
+          "Are backups maintained, encrypted, and periodically tested for recovery?",
+          "[ ] Compliant  [ ] Needs Improvement  [ ] Non-Compliant  [ ] N/A"
+        ]
+      },
+      {
+        "index": 78,
+        "title": "5. Recommendation",
+        "content_preview": [
+          "\u2611 Stage II Ready",
+          "\u2610 Stage II Conditional (improvements required)",
+          "\u2610 Stage II Not Ready"
+        ]
+      }
+    ],
+    "tables": [],
+    "fields": [
+      "Address",
+      "Audit Team Members",
+      "Client Name",
+      "Client Representative",
+      "Comments / Justification",
+      "Contact Person",
+      "Date",
+      "Email Address",
+      "ISO/IEC 27001",
+      "Lead Auditor",
+      "Phone No.",
+      "Site(s)"
+    ]
+  },
+  "ISO_14001_2015 Stage II Certification_Audit_Report.docx": {
+    "file_name": "ISO_14001_2015 Stage II Certification_Audit_Report.docx",
+    "paragraphs_count": 165,
+    "tables_count": 0,
+    "sections": [
+      {
+        "index": 37,
+        "title": "Are risks and opportunities related to context and interested parties addressed in the EMS?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Is the organization aware of how its activities influence the environment and local communities?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A"
+        ]
+      }
+    ],
+    "tables": [],
+    "fields": [
+      "Address",
+      "Auditor",
+      "Auditor Name & Signature",
+      "Client Name",
+      "Client Representative & Signature",
+      "Conclusion",
+      "Conducted on (Date and Time)",
+      "Contact Person",
+      "Date",
+      "Email Address",
+      "ISO 14001",
+      "Lead Auditor",
+      "Location 1",
+      "Location 2",
+      "Location 3",
+      "Phone No.",
+      "Recommendations",
+      "Site"
+    ]
+  },
+  "ISO_14001_2015_Stage_I_Audit_Checklist.docx": {
+    "file_name": "ISO_14001_2015_Stage_I_Audit_Checklist.docx",
+    "paragraphs_count": 84,
+    "tables_count": 0,
+    "sections": [
+      {
+        "index": 1,
+        "title": "1. Information",
+        "content_preview": [
+          "Client Name: __________________________",
+          "Address: __________________________",
+          "Contact Person: __________________________"
+        ]
+      },
+      {
+        "index": 11,
+        "title": "2. Audit Scope",
+        "content_preview": [
+          "Describe the range of activities, facilities, and sites covered by the audit, and justify any exclus"
+        ]
+      },
+      {
+        "index": 13,
+        "title": "3. Audit Objectives",
+        "content_preview": [
+          "To assess the organization's understanding of ISO 14001:2015 and its requirements.",
+          "To verify the definition and appropriateness of the EMS scope and boundaries.",
+          "To review identification of environmental aspects, impacts, and compliance obligations."
+        ]
+      },
+      {
+        "index": 21,
+        "title": "4. Audit Summary",
+        "content_preview": [
+          "A. Documented Information",
+          "Is the environmental policy documented, communicated, and aligned with the organization\u2019s context?",
+          "[ ] Compliant  [ ] Needs Improvement  [ ] Non-Compliant  [ ] N/A"
+        ]
+      },
+      {
+        "index": 74,
+        "title": "5. Recommendation",
+        "content_preview": [
+          "\u2611 Stage II Ready",
+          "\u2610 Stage II Conditional (improvements required)",
+          "\u2610 Stage II Not Ready"
+        ]
+      }
+    ],
+    "tables": [],
+    "fields": [
+      "Address",
+      "Audit Team Members",
+      "Client Name",
+      "Client Representative",
+      "Comments / Justification",
+      "Contact Person",
+      "Date",
+      "Email Address",
+      "ISO 14001",
+      "Lead Auditor",
+      "Phone No.",
+      "Site(s)"
+    ]
+  },
+  "ISO_45001_2018_Stage_II_Certification_Audit_Report_Expanded.docx": {
+    "file_name": "ISO_45001_2018_Stage_II_Certification_Audit_Report_Expanded.docx",
+    "paragraphs_count": 165,
+    "tables_count": 0,
+    "sections": [
+      {
+        "index": 22,
+        "title": "Evaluate worker participation and consultation mechanisms.",
+        "content_preview": [
+          "Review internal audit and management review processes.",
+          "Confirm top management commitment to OH&S performance improvement.",
+          "Audit findings shall be classified using the defined rating scale."
+        ]
+      },
+      {
+        "index": 29,
+        "title": "Have the needs and expectations of workers and other interested parties been identified?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Is the scope of the OHSMS appropriate to the organization\u2019s operations and boundaries?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A"
+        ]
+      },
+      {
+        "index": 43,
+        "title": "Leadership and Worker Participation",
+        "content_preview": [
+          "Has top management demonstrated visible commitment to OH&S leadership?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Has an OH&S policy been established and communicated to all workers?"
+        ]
+      },
+      {
+        "index": 147,
+        "title": "Are lessons learned from incidents and audits shared across departments?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Are corrective actions verified for effectiveness?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A"
+        ]
+      }
+    ],
+    "tables": [],
+    "fields": [
+      "Address",
+      "Auditor",
+      "Auditor Name & Signature",
+      "Client Name",
+      "Client Representative & Signature",
+      "Conclusion",
+      "Conducted on (Date and Time)",
+      "Contact Person",
+      "Date",
+      "Email Address",
+      "ISO 45001",
+      "Lead Auditor",
+      "Location 1",
+      "Location 2",
+      "Location 3",
+      "Phone No.",
+      "Recommendations",
+      "Site"
+    ]
+  },
+  "Integrated_OHS+EMS_Stage_II_Certification_Audit_Report.docx": {
+    "file_name": "Integrated_OHS+EMS_Stage_II_Certification_Audit_Report.docx",
+    "paragraphs_count": 165,
+    "tables_count": 0,
+    "sections": [
+      {
+        "index": 23,
+        "title": "Confirm leadership commitment, worker participation, and environmental protection.",
+        "content_preview": [
+          "Evaluate continual improvement in safety and environmental performance.",
+          "Audit findings shall be classified using the defined rating scale.",
+          "Context of the Organization"
+        ]
+      },
+      {
+        "index": 43,
+        "title": "Leadership and Worker Participation",
+        "content_preview": [
+          "Has top management demonstrated commitment to preventing injury, ill health, and pollution?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Is there an integrated policy committing to compliance, sustainability, and continual improvement?"
+        ]
+      },
+      {
+        "index": 48,
+        "title": "Is the policy communicated, understood, and available to all relevant parties?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Are roles, responsibilities, and authorities defined and communicated across the IMS?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A"
+        ]
+      },
+      {
+        "index": 52,
+        "title": "Are mechanisms established for worker consultation and participation in risk management?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Is top management ensuring integration of safety and environmental goals into operations?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A"
+        ]
+      },
+      {
+        "index": 60,
+        "title": "Is communication between management, workers, and external parties transparent and effective?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Does leadership foster a culture of proactive safety and environmental stewardship?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A"
+        ]
+      },
+      {
+        "index": 153,
+        "title": "Are lessons learned shared across departments and sites?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Is innovation encouraged to enhance environmental performance and safety culture?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A"
+        ]
+      }
+    ],
+    "tables": [],
+    "fields": [
+      "Address",
+      "Auditor",
+      "Auditor Name & Signature",
+      "Client Name",
+      "Client Representative & Signature",
+      "Conclusion",
+      "Conducted on (Date and Time)",
+      "Contact Person",
+      "Date",
+      "Email Address",
+      "Integrated ISO 45001",
+      "Is risk control following the hierarchy",
+      "Lead Auditor",
+      "Location 1",
+      "Location 2",
+      "Location 3",
+      "Phone No.",
+      "Recommendations",
+      "Site",
+      "Verify compliance with ISO 45001"
+    ]
+  },
+  "Integrated_OHS+EMS_Stage_I_Audit_Checklist.docx": {
+    "file_name": "Integrated_OHS+EMS_Stage_I_Audit_Checklist.docx",
+    "paragraphs_count": 90,
+    "tables_count": 0,
+    "sections": [
+      {
+        "index": 1,
+        "title": "1. Information",
+        "content_preview": [
+          "Client Name: __________________________",
+          "Address: __________________________",
+          "Contact Person: __________________________"
+        ]
+      },
+      {
+        "index": 11,
+        "title": "2. Audit Scope",
+        "content_preview": [
+          "Describe the range of products, services, and facilities covered by the integrated audit, including "
+        ]
+      },
+      {
+        "index": 13,
+        "title": "3. Audit Objectives",
+        "content_preview": [
+          "To assess the organization's understanding of ISO 45001:2018 and ISO 14001:2015 requirements.",
+          "To verify the definition and appropriateness of the Integrated Management System (IMS) scope and bou",
+          "To evaluate the adequacy and control of documented information and process controls for OHS and envi"
+        ]
+      },
+      {
+        "index": 21,
+        "title": "4. Audit Summary",
+        "content_preview": [
+          "A. Documented Information",
+          "Is an integrated policy documented and communicated covering occupational health, safety, and enviro",
+          "[ ] Compliant  [ ] Needs Improvement  [ ] Non-Compliant  [ ] N/A"
+        ]
+      },
+      {
+        "index": 80,
+        "title": "5. Recommendation",
+        "content_preview": [
+          "\u2611 Stage II Ready",
+          "\u2610 Stage II Conditional (improvements required)",
+          "\u2610 Stage II Not Ready"
+        ]
+      }
+    ],
+    "tables": [],
+    "fields": [
+      "Address",
+      "Audit Team Members",
+      "Client Name",
+      "Client Representative",
+      "Comments / Justification",
+      "Contact Person",
+      "Date",
+      "Email Address",
+      "Integrated ISO 45001",
+      "Lead Auditor",
+      "Phone No.",
+      "Site(s)"
+    ]
+  },
+  "Integrated_QMS+EMS_Stage_II_Certification_Audit_Report.docx": {
+    "file_name": "Integrated_QMS+EMS_Stage_II_Certification_Audit_Report.docx",
+    "paragraphs_count": 161,
+    "tables_count": 0,
+    "sections": [
+      {
+        "index": 29,
+        "title": "Have the needs and expectations of interested parties been determined and updated?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Is the scope of the IMS defined appropriately for the organization\u2019s activities and compliance bound",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A"
+        ]
+      },
+      {
+        "index": 48,
+        "title": "Is the policy communicated, understood, and available to relevant interested parties?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Are roles, responsibilities, and authorities clearly defined and communicated?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A"
+        ]
+      }
+    ],
+    "tables": [],
+    "fields": [
+      "Address",
+      "Auditor",
+      "Auditor Name & Signature",
+      "Client Name",
+      "Client Representative & Signature",
+      "Conclusion",
+      "Conducted on (Date and Time)",
+      "Contact Person",
+      "Date",
+      "Email Address",
+      "Integrated ISO 9001",
+      "Lead Auditor",
+      "Location 1",
+      "Location 2",
+      "Location 3",
+      "Phone No.",
+      "Recommendations",
+      "Site",
+      "Verify compliance with ISO 9001"
+    ]
+  },
+  "Integrated_QMS+EMS_Stage_I_Audit_Checklist.docx": {
+    "file_name": "Integrated_QMS+EMS_Stage_I_Audit_Checklist.docx",
+    "paragraphs_count": 86,
+    "tables_count": 0,
+    "sections": [
+      {
+        "index": 1,
+        "title": "1. Information",
+        "content_preview": [
+          "Client Name: __________________________",
+          "Address: __________________________",
+          "Contact Person: __________________________"
+        ]
+      },
+      {
+        "index": 11,
+        "title": "2. Audit Scope",
+        "content_preview": [
+          "Describe the range of products, services, and facilities covered by the integrated audit, and justif"
+        ]
+      },
+      {
+        "index": 13,
+        "title": "3. Audit Objectives",
+        "content_preview": [
+          "To assess the organization's understanding of ISO 9001:2015 and ISO 14001:2015 requirements.",
+          "To verify the definition and appropriateness of the Integrated Management System (IMS) scope and bou",
+          "To evaluate the adequacy and control of documented information and process controls for quality and "
+        ]
+      },
+      {
+        "index": 21,
+        "title": "4. Audit Summary",
+        "content_preview": [
+          "A. Documented Information",
+          "Is an integrated policy covering quality and environment documented and communicated effectively?",
+          "[ ] Compliant  [ ] Needs Improvement  [ ] Non-Compliant  [ ] N/A"
+        ]
+      },
+      {
+        "index": 76,
+        "title": "5. Recommendation",
+        "content_preview": [
+          "\u2611 Stage II Ready",
+          "\u2610 Stage II Conditional (improvements required)",
+          "\u2610 Stage II Not Ready"
+        ]
+      }
+    ],
+    "tables": [],
+    "fields": [
+      "Address",
+      "Audit Team Members",
+      "Client Name",
+      "Client Representative",
+      "Comments / Justification",
+      "Contact Person",
+      "Date",
+      "Email Address",
+      "Integrated ISO 9001",
+      "Lead Auditor",
+      "Phone No.",
+      "Site(s)"
+    ]
+  },
+  "Integrated_QMS+OHS+EMS Stage II Certification Audit_Report.docx": {
+    "file_name": "Integrated_QMS+OHS+EMS Stage II Certification Audit_Report.docx",
+    "paragraphs_count": 165,
+    "tables_count": 0,
+    "sections": [
+      {
+        "index": 23,
+        "title": "Confirm leadership commitment, worker participation, and process-based management.",
+        "content_preview": [
+          "Evaluate continual improvement and prevention of pollution, injury, and nonconformities.",
+          "Audit findings shall be classified using the defined rating scale.",
+          "Context of the Organization"
+        ]
+      },
+      {
+        "index": 43,
+        "title": "Leadership and Worker Participation",
+        "content_preview": [
+          "Has top management demonstrated leadership commitment to quality, OH&S, and environmental performanc",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Is there an integrated policy committing to customer satisfaction, prevention of injury, ill health,"
+        ]
+      },
+      {
+        "index": 48,
+        "title": "Is the policy communicated, understood, and available to all interested parties?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Are roles, responsibilities, and authorities defined and communicated across the IMS?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A"
+        ]
+      },
+      {
+        "index": 52,
+        "title": "Are employees involved in consultation and participation mechanisms?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Is top management ensuring integration of IMS requirements into business operations?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A"
+        ]
+      }
+    ],
+    "tables": [],
+    "fields": [
+      "Address",
+      "Auditor",
+      "Auditor Name & Signature",
+      "Client Name",
+      "Client Representative & Signature",
+      "Conclusion",
+      "Conducted on (Date and Time)",
+      "Contact Person",
+      "Date",
+      "Email Address",
+      "Integrated ISO 9001",
+      "Lead Auditor",
+      "Location 1",
+      "Location 2",
+      "Location 3",
+      "Phone No.",
+      "Recommendations",
+      "Site"
+    ]
+  },
+  "Integrated_QMS+OHS+EMS_Stage_I_Audit_Checklist.docx": {
+    "file_name": "Integrated_QMS+OHS+EMS_Stage_I_Audit_Checklist.docx",
+    "paragraphs_count": 88,
+    "tables_count": 0,
+    "sections": [
+      {
+        "index": 1,
+        "title": "1. Information",
+        "content_preview": [
+          "Client Name: __________________________",
+          "Address: __________________________",
+          "Contact Person: __________________________"
+        ]
+      },
+      {
+        "index": 11,
+        "title": "2. Audit Scope",
+        "content_preview": [
+          "Describe the range of products, services, and facilities covered by the integrated audit, including "
+        ]
+      },
+      {
+        "index": 13,
+        "title": "3. Audit Objectives",
+        "content_preview": [
+          "To assess the organization's understanding of ISO 9001:2015, ISO 45001:2018, and ISO 14001:2015 requ",
+          "To verify the definition and appropriateness of the Integrated Management System (IMS) scope and bou",
+          "To evaluate the adequacy and control of documented information and process controls for quality, saf"
+        ]
+      },
+      {
+        "index": 21,
+        "title": "4. Audit Summary",
+        "content_preview": [
+          "A. Documented Information",
+          "Is an integrated policy documented and communicated covering quality, health & safety, and environme",
+          "[ ] Compliant  [ ] Needs Improvement  [ ] Non-Compliant  [ ] N/A"
+        ]
+      },
+      {
+        "index": 78,
+        "title": "5. Recommendation",
+        "content_preview": [
+          "\u2611 Stage II Ready",
+          "\u2610 Stage II Conditional (improvements required)",
+          "\u2610 Stage II Not Ready"
+        ]
+      }
+    ],
+    "tables": [],
+    "fields": [
+      "Address",
+      "Audit Team Members",
+      "Client Name",
+      "Client Representative",
+      "Comments / Justification",
+      "Contact Person",
+      "Date",
+      "Email Address",
+      "Integrated ISO 9001",
+      "Lead Auditor",
+      "Phone No.",
+      "Site(s)"
+    ]
+  },
+  "Integrated_QMS+OHS_Stage_II_Certification_Audit_Report.docx": {
+    "file_name": "Integrated_QMS+OHS_Stage_II_Certification_Audit_Report.docx",
+    "paragraphs_count": 165,
+    "tables_count": 0,
+    "sections": [
+      {
+        "index": 23,
+        "title": "Evaluate leadership, worker participation, and risk-based thinking across all levels.",
+        "content_preview": [
+          "Confirm continual improvement of IMS performance and stakeholder satisfaction.",
+          "Audit findings shall be classified using the defined rating scale.",
+          "Context of the Organization"
+        ]
+      },
+      {
+        "index": 29,
+        "title": "Have the needs and expectations of interested parties for quality and OH&S been determined?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Is the scope of the IMS defined, reflecting products, services, and workplace activities?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A"
+        ]
+      },
+      {
+        "index": 35,
+        "title": "Are risks and opportunities related to context and interested parties addressed in the IMS?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Are changes in business or regulatory environment reviewed and updated in the IMS?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A"
+        ]
+      },
+      {
+        "index": 43,
+        "title": "Leadership and Worker Participation",
+        "content_preview": [
+          "Has top management demonstrated commitment to both quality and OH&S objectives?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Is there an integrated policy covering quality, customer focus, and prevention of injury and ill hea"
+        ]
+      },
+      {
+        "index": 48,
+        "title": "Is the policy communicated and understood by workers and interested parties?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Are roles, responsibilities, and authorities defined and communicated across all levels?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A"
+        ]
+      },
+      {
+        "index": 52,
+        "title": "Are workers consulted and actively participating in improvement and safety programs?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Is top management promoting a culture of quality and safety through example?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A"
+        ]
+      },
+      {
+        "index": 58,
+        "title": "Are customer and worker satisfaction regularly reviewed as part of the IMS?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Are communication and consultation mechanisms effective and inclusive?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A"
+        ]
+      },
+      {
+        "index": 125,
+        "title": "Are controls applied consistently across sites and departments to ensure IMS conformity?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Performance Evaluation",
+          "Are performance indicators for quality and OH&S monitored and analyzed?"
+        ]
+      },
+      {
+        "index": 136,
+        "title": "Are customer satisfaction and worker participation levels measured and reported?",
+        "content_preview": [
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A",
+          "Are compliance evaluations (legal, regulatory, contractual) carried out regularly?",
+          "[ ] Compliant  [ ] Room for Improvement  [ ] Minor NC  [ ] Major NC  [ ] N/A"
+        ]
+      }
+    ],
+    "tables": [],
+    "fields": [
+      "Address",
+      "Auditor",
+      "Auditor Name & Signature",
+      "Client Name",
+      "Client Representative & Signature",
+      "Conclusion",
+      "Conducted on (Date and Time)",
+      "Contact Person",
+      "Date",
+      "Email Address",
+      "Integrated ISO 9001",
+      "Lead Auditor",
+      "Location 1",
+      "Location 2",
+      "Location 3",
+      "Phone No.",
+      "Recommendations",
+      "Site",
+      "Verify compliance with ISO 9001"
+    ]
+  },
+  "Integrated_QMS+OHS_Stage_I_Audit_Checklist.docx": {
+    "file_name": "Integrated_QMS+OHS_Stage_I_Audit_Checklist.docx",
+    "paragraphs_count": 86,
+    "tables_count": 0,
+    "sections": [
+      {
+        "index": 1,
+        "title": "1. Information",
+        "content_preview": [
+          "Client Name: __________________________",
+          "Address: __________________________",
+          "Contact Person: __________________________"
+        ]
+      },
+      {
+        "index": 11,
+        "title": "2. Audit Scope",
+        "content_preview": [
+          "Describe the range of products, services, and sites to be audited, and justify any exclusions."
+        ]
+      },
+      {
+        "index": 13,
+        "title": "3. Audit Objectives",
+        "content_preview": [
+          "To assess the organization's understanding of ISO 9001:2015 and ISO 45001:2018 requirements.",
+          "To verify the definition and appropriateness of the Integrated Management System (IMS) scope and bou",
+          "To evaluate the adequacy and control of documented information for quality and OHS processes."
+        ]
+      },
+      {
+        "index": 21,
+        "title": "4. Audit Summary",
+        "content_preview": [
+          "A. Documented Information",
+          "Is an integrated policy documented and communicated addressing quality, safety, and legal compliance",
+          "[ ] Compliant  [ ] Needs Improvement  [ ] Non-Compliant  [ ] N/A"
+        ]
+      },
+      {
+        "index": 76,
+        "title": "5. Recommendation",
+        "content_preview": [
+          "\u2611 Stage II Ready",
+          "\u2610 Stage II Conditional (improvements required)",
+          "\u2610 Stage II Not Ready"
+        ]
+      }
+    ],
+    "tables": [],
+    "fields": [
+      "Address",
+      "Audit Team Members",
+      "Client Name",
+      "Client Representative",
+      "Comments / Justification",
+      "Contact Person",
+      "Date",
+      "Email Address",
+      "Integrated ISO 9001",
+      "Lead Auditor",
+      "Phone No.",
+      "Site(s)"
+    ]
+  }
+}

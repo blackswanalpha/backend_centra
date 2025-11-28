@@ -1,0 +1,854 @@
+{
+  "Contacts": {
+    "name": "Contacts",
+    "dimensions": "86 rows x 9 columns",
+    "max_row": 86,
+    "max_column": 9,
+    "headers": [
+      "Client Name",
+      "Currency Code",
+      "Billing Attention",
+      "Billing Address",
+      "Billing Street2",
+      "Billing City",
+      "Billing State",
+      "Billing Country",
+      "Payment Terms Label"
+    ],
+    "sample_data": [
+      {
+        "Client Name": "A.O Bayusuf & Sons",
+        "Currency Code": "GBP",
+        "Billing Attention": "",
+        "Billing Address": "Jomvu",
+        "Billing Street2": "",
+        "Billing City": "Mombasa",
+        "Billing State": "Coast",
+        "Billing Country": "Kenya",
+        "Payment Terms Label": "Due on Receipt"
+      },
+      {
+        "Client Name": "A.O Bayusuf & Sons (USD)",
+        "Currency Code": "USD",
+        "Billing Attention": "",
+        "Billing Address": "Jomvu",
+        "Billing Street2": "",
+        "Billing City": "Mombasa",
+        "Billing State": "Coast",
+        "Billing Country": "Kenya",
+        "Payment Terms Label": "On Receipt"
+      },
+      {
+        "Client Name": "Afri Piping Systems Kenya Ltd",
+        "Currency Code": "GBP",
+        "Billing Attention": "",
+        "Billing Address": "Kampala Road",
+        "Billing Street2": "Industrial Area",
+        "Billing City": "Nairobi",
+        "Billing State": "",
+        "Billing Country": "Kenya",
+        "Payment Terms Label": "On Receipt"
+      },
+      {
+        "Client Name": "AKM Glitters Ltd",
+        "Currency Code": "USD",
+        "Billing Attention": "",
+        "Billing Address": "House no 64, Off Sam Nujoma Road",
+        "Billing Street2": "Sinza Kivulini, Juma Ikangaa Street",
+        "Billing City": "Dar-es-salaam",
+        "Billing State": "",
+        "Billing Country": "Tanzania, United Republic of",
+        "Payment Terms Label": "On Receipt"
+      },
+      {
+        "Client Name": "Aluglass Africa Ltd",
+        "Currency Code": "USD",
+        "Billing Attention": "",
+        "Billing Address": "Tariff Road",
+        "Billing Street2": "Langham Court",
+        "Billing City": "Nairobi",
+        "Billing State": "",
+        "Billing Country": "Kenya",
+        "Payment Terms Label": "On Receipt"
+      }
+    ],
+    "column_details": [
+      {
+        "index": 1,
+        "name": "Client Name",
+        "sample_values": [
+          "A.O Bayusuf & Sons",
+          "A.O Bayusuf & Sons (USD)",
+          "Afri Piping Systems Kenya Ltd",
+          "AKM Glitters Ltd",
+          "Aluglass Africa Ltd",
+          "Ambitious Construction Co Ltd",
+          "Amiken Limited",
+          "AMS Insurance Brokers Ltd",
+          "AMS Insurance Brokers Ltd (USD)",
+          "Apex Piping Systems Ltd"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Currency Code",
+        "sample_values": [
+          "GBP",
+          "USD",
+          "GBP",
+          "USD",
+          "USD",
+          "USD",
+          "GBP",
+          "GBP",
+          "USD",
+          "USD"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Billing Attention",
+        "sample_values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Mr. Prasad Sharma"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Billing Address",
+        "sample_values": [
+          "Jomvu",
+          "Jomvu",
+          "Kampala Road",
+          "House no 64, Off Sam Nujoma Road",
+          "Tariff Road",
+          "Plot No.1 Swaminarayan Close",
+          "House no 19",
+          "Oceanic Towers",
+          "Gallant Mall",
+          "27-29 Funzi Road"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Billing Street2",
+        "sample_values": [
+          "",
+          "",
+          "Industrial Area",
+          "Sinza Kivulini, Juma Ikangaa Street",
+          "Langham Court",
+          "Nalukolong Industrial Area",
+          "Lenana Road",
+          "3rd Floor Suite 301 & 304",
+          "Third Floor",
+          "Off Enterprise Road"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Billing City",
+        "sample_values": [
+          "Mombasa",
+          "Mombasa",
+          "Nairobi",
+          "Dar-es-salaam",
+          "Nairobi",
+          "Kampala",
+          "Nairobi",
+          "Mombasa",
+          "Nairobi",
+          "Nairobi"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 7,
+        "name": "Billing State",
+        "sample_values": [
+          "Coast",
+          "Coast",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 8,
+        "name": "Billing Country",
+        "sample_values": [
+          "Kenya",
+          "Kenya",
+          "Kenya",
+          "Tanzania, United Republic of",
+          "Kenya",
+          "Uganda",
+          "Kenya",
+          "Kenya",
+          "Kenya",
+          "Kenya"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 9,
+        "name": "Payment Terms Label",
+        "sample_values": [
+          "Due on Receipt",
+          "On Receipt",
+          "On Receipt",
+          "On Receipt",
+          "On Receipt",
+          "Due on Receipt",
+          "On Receipt",
+          "50% advance balance on certification",
+          "On Receipt",
+          "On Receipt"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      }
+    ]
+  },
+  "Project": {
+    "name": "Project",
+    "dimensions": "121 rows x 12 columns",
+    "max_row": 121,
+    "max_column": 12,
+    "headers": [
+      "Project Ref",
+      "Client Name",
+      "Physical Address",
+      "City",
+      "Country",
+      "Standard",
+      "Description",
+      "Scope of Certification",
+      "Certificate No",
+      "Registration Date",
+      "Certificate Date",
+      "Expiry Date"
+    ],
+    "sample_data": [
+      {
+        "Project Ref": "027",
+        "Client Name": "A.O Bayusuf & Sons",
+        "Physical Address": "Jomvu",
+        "City": "Mombasa",
+        "Country": "Kenya",
+        "Standard": "ISO 9001:2015",
+        "Description": "Quality Management System",
+        "Scope of Certification": "\"Hauling LPG, petroluem and other dry cargo\"",
+        "Certificate No": "11049",
+        "Registration Date": "2020-11-18 00:00:00",
+        "Certificate Date": "2023-11-18 00:00:00",
+        "Expiry Date": "2026-11-18 00:00:00"
+      },
+      {
+        "Project Ref": "043",
+        "Client Name": "Afri Piping Systems Kenya Ltd",
+        "Physical Address": "Kampala Road, Off Enterprise Road",
+        "City": "Nairobi",
+        "Country": "Kenya",
+        "Standard": "ISO 9001:2015",
+        "Description": "Quality Management System",
+        "Scope of Certification": "Manufacturer & Distributor of Fibre Optic Duct Solutions & HDPE pipes and fittings. Exclusions: Clause 8.3 Design & Development",
+        "Certificate No": "11063",
+        "Registration Date": "2021-05-01 00:00:00",
+        "Certificate Date": "2024-05-01 00:00:00",
+        "Expiry Date": "2027-05-01 00:00:00"
+      },
+      {
+        "Project Ref": "044",
+        "Client Name": "AKM Glitters Ltd",
+        "Physical Address": "House No 64, Juma Ikangaa Street",
+        "City": "Dar Es Salaam",
+        "Country": "Tanzania",
+        "Standard": "ISO 9001:2015",
+        "Description": "Quality Management System",
+        "Scope of Certification": "Producing & selling genetically appropriate chicken breed & chicken feed, supply of veterinary machines & vaccines, veterinary and extension services & building  technical and business capacity of small holder chicken farmers through a franchising model. Exclusion: Clause 8.3",
+        "Certificate No": "11067",
+        "Registration Date": "2021-05-01 00:00:00",
+        "Certificate Date": "2021-05-01 00:00:00",
+        "Expiry Date": "2024-05-01 00:00:00"
+      },
+      {
+        "Project Ref": "048",
+        "Client Name": "Aluglass Africa Ltd",
+        "Physical Address": "Taarifa Road, Langham Court",
+        "City": "Nairobi",
+        "Country": "Kenya",
+        "Standard": "ISO 9001:2015",
+        "Description": "Quality Management System",
+        "Scope of Certification": "Specialising in providing value enhanced and tailored solutions within the Aluminium Fabrication and Glass processing division. Exclusions: Clause 8.3; Design & Development",
+        "Certificate No": "11075",
+        "Registration Date": "2021-10-11 00:00:00",
+        "Certificate Date": "2025-10-11 00:00:00",
+        "Expiry Date": "2028-10-10 00:00:00"
+      },
+      {
+        "Project Ref": "048",
+        "Client Name": "Aluglass Africa Ltd",
+        "Physical Address": "Taarifa Road, Langham Court",
+        "City": "Nairobi",
+        "Country": "Kenya",
+        "Standard": "ISO 45001:2018",
+        "Description": "Occupational Health & Safety Management System",
+        "Scope of Certification": "Specialising in providing value enhanced and tailored solutions within the Aluminium Fabrication and Glass processing division. ",
+        "Certificate No": "11076",
+        "Registration Date": "2021-10-11 00:00:00",
+        "Certificate Date": "2025-10-11 00:00:00",
+        "Expiry Date": "2028-10-10 00:00:00"
+      }
+    ],
+    "column_details": [
+      {
+        "index": 1,
+        "name": "Project Ref",
+        "sample_values": [
+          "027",
+          "043",
+          "044",
+          "048",
+          "048",
+          "048",
+          "029",
+          "029",
+          "029",
+          "013"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Client Name",
+        "sample_values": [
+          "A.O Bayusuf & Sons",
+          "Afri Piping Systems Kenya Ltd",
+          "AKM Glitters Ltd",
+          "Aluglass Africa Ltd",
+          "Aluglass Africa Ltd",
+          "Aluglass Africa Ltd",
+          "Ambitious Construction Co Ltd",
+          "Ambitious Construction Co Ltd",
+          "Ambitious Construction Co Ltd",
+          "Amiken Limited"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Physical Address",
+        "sample_values": [
+          "Jomvu",
+          "Kampala Road, Off Enterprise Road",
+          "House No 64, Juma Ikangaa Street",
+          "Taarifa Road, Langham Court",
+          "Taarifa Road, Langham Court",
+          "Taarifa Road, Langham Court",
+          "Plot No.1, Swaminarayan Close, Nalukolong Industrial Area",
+          "Plot No.1, Swaminarayan Close, Nalukolong Industrial Area",
+          "Plot No.1, Swaminarayan Close, Nalukolong Industrial Area",
+          "19 Muchai Road\n"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "City",
+        "sample_values": [
+          "Mombasa",
+          "Nairobi",
+          "Dar Es Salaam",
+          "Nairobi",
+          "Nairobi",
+          "Nairobi",
+          "Kampala",
+          "Kampala",
+          "Kampala",
+          "Nairobi"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Country",
+        "sample_values": [
+          "Kenya",
+          "Kenya",
+          "Tanzania",
+          "Kenya",
+          "Kenya",
+          "Kenya",
+          "Uganda",
+          "Uganda",
+          "Uganda",
+          "Kenya"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Standard",
+        "sample_values": [
+          "ISO 9001:2015",
+          "ISO 9001:2015",
+          "ISO 9001:2015",
+          "ISO 9001:2015",
+          "ISO 45001:2018",
+          "ISO 14001:2015",
+          "ISO 9001:2015",
+          "ISO 45001:2018",
+          "ISO 14001:2015",
+          "ISO 9001:2015"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 7,
+        "name": "Description",
+        "sample_values": [
+          "Quality Management System",
+          "Quality Management System",
+          "Quality Management System",
+          "Quality Management System",
+          "Occupational Health & Safety Management System",
+          "Environmental Management System",
+          "Quality Management System",
+          "Occupational Health & Safety Management System",
+          "Environmental Management System",
+          "Quality Management System"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 8,
+        "name": "Scope of Certification",
+        "sample_values": [
+          "\"Hauling LPG, petroluem and other dry cargo\"",
+          "Manufacturer & Distributor of Fibre Optic Duct Solutions & HDPE pipes and fittings. Exclusions: Clau",
+          "Producing & selling genetically appropriate chicken breed & chicken feed, supply of veterinary machi",
+          "Specialising in providing value enhanced and tailored solutions within the Aluminium Fabrication and",
+          "Specialising in providing value enhanced and tailored solutions within the Aluminium Fabrication and",
+          "Specialising in providing value enhanced and tailored solutions within the Aluminium Fabrication and",
+          "Provision of building and civil engineering works at the address stated above. Exclusion: Clause 8.3",
+          "Provision of building and civil engineering works at the address stated above. Exclusion: Clause 8.3",
+          "Provision of building and civil engineering works at the address stated above. Exclusion: Clause 8.3",
+          "\"Importers & Exporters of Medical, Surgical, Orthopedic, Dental, Laboratory Equipment & Consumables,"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 9,
+        "name": "Certificate No",
+        "sample_values": [
+          "11049",
+          "11063",
+          "11067",
+          "11075",
+          "11076",
+          "11077",
+          "11014",
+          "11055",
+          "11056",
+          "11021"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 10,
+        "name": "Registration Date",
+        "sample_values": [
+          "2020-11-18 00:00:00",
+          "2021-05-01 00:00:00",
+          "2021-05-01 00:00:00",
+          "2021-10-11 00:00:00",
+          "2021-10-11 00:00:00",
+          "2021-10-11 00:00:00",
+          "2020-04-20 00:00:00",
+          "2020-12-01 00:00:00",
+          "2020-12-01 00:00:00",
+          "2020-05-25 00:00:00"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "datetime"
+        ]
+      },
+      {
+        "index": 11,
+        "name": "Certificate Date",
+        "sample_values": [
+          "2023-11-18 00:00:00",
+          "2024-05-01 00:00:00",
+          "2021-05-01 00:00:00",
+          "2025-10-11 00:00:00",
+          "2025-10-11 00:00:00",
+          "2025-10-11 00:00:00",
+          "2023-04-20 00:00:00",
+          "2023-12-01 00:00:00",
+          "2023-12-01 00:00:00",
+          "2023-05-24 00:00:00"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "datetime"
+        ]
+      },
+      {
+        "index": 12,
+        "name": "Expiry Date",
+        "sample_values": [
+          "2026-11-18 00:00:00",
+          "2027-05-01 00:00:00",
+          "2024-05-01 00:00:00",
+          "2028-10-10 00:00:00",
+          "2028-10-10 00:00:00",
+          "2028-10-10 00:00:00",
+          "2026-04-19 00:00:00",
+          "2026-12-01 00:00:00",
+          "2026-12-01 00:00:00",
+          "2026-05-25 00:00:00"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "datetime"
+        ]
+      }
+    ]
+  },
+  "TimeSheet": {
+    "name": "TimeSheet",
+    "dimensions": "223 rows x 9 columns",
+    "max_row": 223,
+    "max_column": 9,
+    "headers": [
+      "Certificate No",
+      "Task Name",
+      "Auditor",
+      "Email",
+      "Notes",
+      "Date",
+      "Billable Status",
+      "Billed Status",
+      "Amount"
+    ],
+    "sample_data": [
+      {
+        "Certificate No": "11067",
+        "Task Name": "2nd Surveillance Audit",
+        "Auditor": "Kuldip Degon",
+        "Email": "kuldip@acequ.com",
+        "Notes": "Tanzania",
+        "Date": "2023-04-19 00:00:00",
+        "Billable Status": "Billable",
+        "Billed Status": "Unbilled",
+        "Amount": ""
+      },
+      {
+        "Certificate No": "11061 (xfr to USD a/c)",
+        "Task Name": "Re-certification Audit",
+        "Auditor": "Kuldip Degon",
+        "Email": "kuldip@acequ.com",
+        "Notes": "",
+        "Date": "2024-02-15 00:00:00",
+        "Billable Status": "Billable",
+        "Billed Status": "Unbilled",
+        "Amount": ""
+      },
+      {
+        "Certificate No": "11017",
+        "Task Name": "1st Surveillance Audit",
+        "Auditor": "Kuldip Degon",
+        "Email": "kuldip@acequ.com",
+        "Notes": "Uganda",
+        "Date": "2024-03-17 00:00:00",
+        "Billable Status": "Billable",
+        "Billed Status": "Unbilled",
+        "Amount": ""
+      },
+      {
+        "Certificate No": "11067",
+        "Task Name": "Re-certification Audit",
+        "Auditor": "Kuldip Degon",
+        "Email": "kuldip@acequ.com",
+        "Notes": "",
+        "Date": "2024-04-19 00:00:00",
+        "Billable Status": "Billable",
+        "Billed Status": "Unbilled",
+        "Amount": ""
+      },
+      {
+        "Certificate No": "11086",
+        "Task Name": "2nd Surveillance Audit",
+        "Auditor": "Kuldip Degon",
+        "Email": "kuldip@acequ.com",
+        "Notes": "Rwanda",
+        "Date": "2024-05-10 00:00:00",
+        "Billable Status": "Billable",
+        "Billed Status": "Unbilled",
+        "Amount": ""
+      }
+    ],
+    "column_details": [
+      {
+        "index": 1,
+        "name": "Certificate No",
+        "sample_values": [
+          "11067",
+          "11061 (xfr to USD a/c)",
+          "11017",
+          "11067",
+          "11086",
+          "11094",
+          "11095",
+          "11102",
+          "11107",
+          "11088"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 2,
+        "name": "Task Name",
+        "sample_values": [
+          "2nd Surveillance Audit",
+          "Re-certification Audit",
+          "1st Surveillance Audit",
+          "Re-certification Audit",
+          "2nd Surveillance Audit",
+          "1st Surveillance Audit",
+          "1st Surveillance Audit",
+          "Certification Audit ( advance on agreement signing)",
+          "1st Surveillance Audit",
+          "2nd Surveillance Audit"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 3,
+        "name": "Auditor",
+        "sample_values": [
+          "Kuldip Degon",
+          "Kuldip Degon",
+          "Kuldip Degon",
+          "Kuldip Degon",
+          "Kuldip Degon",
+          "Kuldip Degon",
+          "Kuldip Degon",
+          "Kuldip Degon",
+          "Kuldip Degon",
+          "Kuldip Degon"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 4,
+        "name": "Email",
+        "sample_values": [
+          "kuldip@acequ.com",
+          "kuldip@acequ.com",
+          "kuldip@acequ.com",
+          "kuldip@acequ.com",
+          "kuldip@acequ.com",
+          "kuldip@acequ.com",
+          "kuldip@acequ.com",
+          "info@acequ.com",
+          "kuldip@acequ.com",
+          "kuldip@acequ.com"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 5,
+        "name": "Notes",
+        "sample_values": [
+          "Tanzania",
+          "",
+          "Uganda",
+          "",
+          "Rwanda",
+          "Kericho",
+          "Kericho",
+          "Rwanda",
+          "Mombasa",
+          "Nairobi"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 6,
+        "name": "Date",
+        "sample_values": [
+          "2023-04-19 00:00:00",
+          "2024-02-15 00:00:00",
+          "2024-03-17 00:00:00",
+          "2024-04-19 00:00:00",
+          "2024-05-10 00:00:00",
+          "2024-06-03 00:00:00",
+          "2024-06-03 00:00:00",
+          "2024-12-02 00:00:00",
+          "2024-12-05 00:00:00",
+          "2024-12-15 00:00:00"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "datetime"
+        ]
+      },
+      {
+        "index": 7,
+        "name": "Billable Status",
+        "sample_values": [
+          "Billable",
+          "Billable",
+          "Billable",
+          "Billable",
+          "Billable",
+          "Billable",
+          "Billable",
+          "Billable",
+          "Billable",
+          "Billable"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 8,
+        "name": "Billed Status",
+        "sample_values": [
+          "Unbilled",
+          "Unbilled",
+          "Unbilled",
+          "Unbilled",
+          "Unbilled",
+          "Unbilled",
+          "Unbilled",
+          "Unbilled",
+          "Unbilled",
+          "Unbilled"
+        ],
+        "non_empty_count": 10,
+        "data_types": [
+          "str"
+        ]
+      },
+      {
+        "index": 9,
+        "name": "Amount",
+        "sample_values": [],
+        "non_empty_count": 0,
+        "data_types": []
+      }
+    ]
+  },
+  "Sheet1": {
+    "name": "Sheet1",
+    "dimensions": "1 rows x 1 columns",
+    "max_row": 1,
+    "max_column": 1,
+    "headers": [
+      "Column1"
+    ],
+    "sample_data": [],
+    "column_details": [
+      {
+        "index": 1,
+        "name": "Column1",
+        "sample_values": [],
+        "non_empty_count": 0,
+        "data_types": []
+      }
+    ]
+  }
+}

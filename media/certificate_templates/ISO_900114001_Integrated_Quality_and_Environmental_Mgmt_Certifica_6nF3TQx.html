@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Certificate of Compliance - ISO 9001+14001</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 40px;
+            background: #f8f9fa;
+        }
+        .certificate {
+            background: white;
+            padding: 60px;
+            border: 8px solid #2c5aa0;
+            margin: 20px auto;
+            max-width: 800px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            color: #2c5aa0;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .content {
+            line-height: 1.8;
+            font-size: 16px;
+        }
+        .client-name {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c5aa0;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .details {
+            margin: 30px 0;
+        }
+        .footer {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+        }
+        .signature {
+            text-align: center;
+            border-top: 2px solid #333;
+            padding-top: 10px;
+            width: 200px;
+        }
+        .cert-number {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="certificate">
+        <div class="cert-number">Certificate No: {{certificate_number}}</div>
+        
+        <div class="header">
+            <div class="title">CERTIFICATE OF COMPLIANCE</div>
+            <div class="subtitle">ISO 9001+14001 - Integrated Quality and Environmental Management Systems</div>
+        </div>
+
+        <div class="content">
+            <p>This is to certify that</p>
+            
+            <div class="client-name">{{client_name}}</div>
+            
+            <p>located at {{client_address}}</p>
+            
+            <div class="details">
+                <p><strong>Scope of Certification:</strong></p>
+                <p>{{scope}}</p>
+                
+                <p><strong>Standard:</strong> ISO 9001+14001 - Integrated Quality and Environmental Management Systems</p>
+                <p><strong>Certificate Issue Date:</strong> {{issue_date}}</p>
+                <p><strong>Certificate Expiry Date:</strong> {{expiry_date}}</p>
+                <p><strong>Certification Body:</strong> {{certification_body}}</p>
+                <p><strong>Accreditation Number:</strong> {{accreditation_number}}</p>
+            </div>
+            
+            <p>This certificate is valid for the scope of certification shown above and is subject to the terms and conditions of the certification agreement.</p>
+        </div>
+
+        <div class="footer">
+            <div class="signature">
+                <div>{{lead_auditor_name}}</div>
+                <div>Lead Auditor</div>
+                <div>{{lead_auditor_email}}</div>
+            </div>
+            <div style="text-align: right;">
+                <img src="logo.png" alt="Company Logo" style="max-height: 80px;">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
