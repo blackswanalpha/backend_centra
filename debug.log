@@ -11577,3 +11577,4 @@ Watching for file changes with StatReloader
 "PUT /api/v1/templates/1f4a24fd-469b-4ebe-800c-8fbd564205f2/ HTTP/1.1" 200 911
 /home/mbugua/Documents/augment-projects/AssureHub/backend_centra/backend/settings.py changed, reloading.
 Watching for file changes with StatReloader
+/home/mbugua/Documents/augment-projects/AssureHub/backend_centra/backend/settings.py changed, reloading.

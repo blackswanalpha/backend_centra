@@ -184,6 +184,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3001",
     "http://localhost:30000",
     "http://127.0.0.1:30000",
+    "https://centraqu.spinwish.tech",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
