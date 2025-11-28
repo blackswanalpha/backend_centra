@@ -7,7 +7,7 @@ ENV PYTHONUNBUFFERED 1
 
 # Set Django ALLOWED_HOSTS via environment variable
 # Assuming Django settings.py reads ALLOWED_HOSTS from DJANGO_ALLOWED_HOSTS
-ENV DJANGO_ALLOWED_HOSTS ucgksgoc0ggkkc0sg88wkoko.spinwish.tech,localhost,127.0.0.1
+ENV DJANGO_ALLOWED_HOSTS ucgksgoc0ggkkc0sg88wkoko.spinwish.tech,centraqu.spinwish.tech,localhost,127.0.0.1
 
 # Set the working directory in the container
 WORKDIR /app
