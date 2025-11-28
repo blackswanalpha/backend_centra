@@ -31,11 +31,11 @@ COPY . /app/
 RUN python manage.py collectstatic --noinput
 
 # Expose the port that Gunicorn will listen on
-EXPOSE 8000
+EXPOSE 9145
 
 # Define the command to run the application
 # This uses Gunicorn to serve the Django application.
 # The `backend.wsgi:application` assumes your project's wsgi.py is in a directory named 'backend'
 # If your wsgi.py is directly in 'backend_centra' or another directory, adjust accordingly.
 # Workers are typically set to (2 * CPU_CORES) + 1. Here we use 3 for example.
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "--workers", "3", "backend.wsgi:application"]
+CMD ["gunicorn", "--bind", "0.0.0.0:9145", "--workers", "3", "backend.wsgi:application"]
